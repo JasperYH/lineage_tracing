@@ -4,7 +4,7 @@ This is team Jasper06's submission to [Allen Institute Cell Lineage Reconstructi
 ## Method description
 We used probability-based hierarchical clustering to reconstruct the cell lineage tree. In short, the transition rate of the initial state to altered states are derived using the ground truth. Next, we derived the probability of cells arising from different parents using transition rates. Then, the pairwise cell distance is calculated using the probability. Finally, we used hierarchical clustering (UPGMA) to reconstruct the cell lineage.
 
-![schemetic] ()
+<image src="schematic.png">
 
 ## Usage
 
